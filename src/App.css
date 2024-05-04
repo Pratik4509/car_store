@@ -1,0 +1,22 @@
+.hero-image::after {
+    height: 25%;
+    width: 50%;
+    background: linear-gradient(to left bottom, #fafafa 50%, transparent 50%);
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hero-image::before {
+    height: 25%;
+    width: 50%;
+    background: linear-gradient(to left bottom, transparent 50%, #fafafa 50%);
+    content: '';
+    display: block;
+    position: absolute;
+    /* left: 0; */
+    /* bottom: 0; */
+    top: 375px;
+}
